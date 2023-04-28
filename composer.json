@@ -1,0 +1,26 @@
+{
+    "name": "silentpatrik/laravel-helpers",
+    "description": "Laravel Helpers for Laravel Projects",
+    "license": "MIT",
+    "keywords": ["laravel", "helpers", "string helpers", "array helpers"],
+    "authors": [
+        {
+            "name": "Patrik Grinsvall",
+            "email": "patrik@silentridge.io"
+        }
+    ],
+    "require": {
+        "php": "^8.0"
+    },
+    "autoload": {
+        "files": [
+            "src/arrays.php",
+            "src/classes.php",
+            "src/helpers.php",
+            "src/strings.php",
+          "src/cloud.php"
+          
+        ]
+    },
+    "minimum-stability": "stable"
+}
